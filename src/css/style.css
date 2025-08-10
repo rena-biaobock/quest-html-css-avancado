@@ -1,19 +1,146 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 
 :root {
-    --font-poppins: "Poppins", sans-serif;
-    --font-open-sans: "Open Sans", sans-serif;
+    --font-headings: "Poppins", sans-serif;
+    --font-body: "Open Sans", sans-serif;
 
-    --color-primary-purple: hsl(257, 40%, 49%);
+    --color-primary-purple: hsla(257, 40%, 49%);
     --color-primary-magenta: hsl(300, 69%, 71%);
 }
 
 
 html {
     font-size: 62.5%;
+    font-weight: 400;
+    color: white;
 }
 
+
+main {
+    min-height: 97vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../images/bg-desktop.svg');
+    background-color: var(--color-primary-purple);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 1440px;
+    height: 800px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 30px 70px;
+    gap: 55px;
+}
+
+.container .left-items {
+    height: 100%;
+}
+
+.container .left-items img.logo {
+    width: 213px;
+    margin-bottom: 86px;
+    margin-top: 20px;
+}
+
+.container .right-items {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.container .right-items h3 {
+    font-family: var(--font-headings);
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.container .right-items p {
+    font-family: var(--font-body);
+    font-size: 1.85rem;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+.container .right-items .btn-register {
+    font-family: var(--font-headings);
+    font-weight: 400;
+    border: none;
+    font-size: 1.8rem;
+    background-color: #fff;
+    width: 200px;
+    height: 55px;
+    border-radius: 50px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color: var(--color-primary-purple);
+    transition: 0.3s ease-in-out;
+}
+
+.container .right-items .btn-register:hover {
+    background-color: var(--color-primary-magenta);
+    color: #fff;
+    cursor: pointer;
+}
+
+.container .right-items ul {
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.container .right-items ul li a {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 2rem;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.container .right-items ul li a:hover {
+    border-color: var(--color-primary-magenta);
+    color: var(--color-primary-magenta);
+}
+
+footer {
+    font-family: var(--font-body);
+    font-weight: 300;
+    height: 3vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: black;
+    background-color: #fff;
+}
+
+footer a {
+    font-weight: 600;
+    color: var(--color-primary-magenta);
+    transition: 0.3s ease-in-out;
+}
+
+footer a:hover {
+    font-weight: 600;
+    color: var(--color-primary-purple);
+}
 
 
 /* Add media:
