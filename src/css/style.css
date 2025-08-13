@@ -38,13 +38,13 @@ main {
     max-width: 1440px;
 }
 
-.container .left-items img.logo {
+.container .section-one img.logo {
     width: 213px;
     margin-bottom: 86px;
     margin-top: 20px;
 }
 
-.container .right-items {
+.container .section-two {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -52,21 +52,21 @@ main {
     position: relative;
 }
 
-.container .right-items h3 {
+.container .section-two h3 {
     font-family: var(--font-headings);
     font-size: 4rem;
     font-weight: 600;
     margin-bottom: 25px;
 }
 
-.container .right-items p {
+.container .section-two p {
     font-family: var(--font-body);
     font-size: 1.85rem;
     margin-bottom: 30px;
     font-weight: 300;
 }
 
-.container .right-items .btn-register {
+.container .section-two .btn-register {
     font-family: var(--font-headings);
     font-weight: 400;
     border: none;
@@ -80,20 +80,20 @@ main {
     transition: 0.3s ease-in-out;
 }
 
-.container .right-items .btn-register:hover {
+.container .section-two .btn-register:hover {
     background-color: var(--color-primary-magenta);
     color: #fff;
     cursor: pointer;
 }
 
-.container .right-items ul {
+.container .section-two ul {
     display: flex;
     position: absolute;
     bottom: 0px;
     right: 0px;
 }
 
-.container .right-items ul li a {
+.container .section-two ul li a {
     color: #fff;
     display: flex;
     justify-content: center;
@@ -108,7 +108,7 @@ main {
     transition: 0.3s ease-in-out;
 }
 
-.container .right-items ul li a:hover {
+.container .section-two ul li a:hover {
     border-color: var(--color-primary-magenta);
     color: var(--color-primary-magenta);
 }
