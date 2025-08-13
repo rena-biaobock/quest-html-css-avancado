@@ -9,16 +9,16 @@
         max-width: 750px;
     }
 
-    .section-one {
+    .container .section-one {
         display: flex;
         flex-direction: column;
     }
 
-    .section-one img {
+    .container .section-one img {
         max-width: 80vw;
     }
 
-    .section-two {
+    .container .section-two {
         display: flex;
         align-items: center;
         text-align: center;
