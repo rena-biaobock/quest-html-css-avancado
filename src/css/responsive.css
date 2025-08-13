@@ -1,0 +1,61 @@
+@media (max-width: 1440px) {
+    main {
+        align-items: flex-start;
+    }
+
+    .container {
+        grid-template-rows: auto auto;
+        grid-template-columns: auto;
+        max-width: 750px;
+    }
+
+    .container .section-one {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container .section-one img {
+        max-width: 80vw;
+    }
+
+    .container .section-two {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: flex-start;
+    }
+
+    .container .section-two ul {
+        position: relative;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 375px) {
+    main {
+        background-image: url('../../images/bg-mobile.svg');
+        background-size: auto;
+    }
+
+    .container .section-one img.logo {
+        width: 150px;
+        margin-bottom: 30px;
+    }
+
+    .container .section-two h3 {
+        font-size: 2.5rem;
+        margin-top: 20px;
+    }
+
+    .container .section-two p {
+        font-size: 1.5rem;
+        margin-bottom: 50px;
+    }
+
+    .container .section-two .btn-register {
+        margin-bottom: 20px;
+        font-size: 1.5rem;
+        width: 200px;
+        height: 40px;
+    }
+}
