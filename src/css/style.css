@@ -29,18 +29,13 @@ main {
 }
 
 .container {
-    width: 1440px;
-    height: 800px;
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     padding: 30px 70px;
     gap: 55px;
-}
-
-.container .left-items {
-    height: 100%;
+    max-width: 1440px;
 }
 
 .container .left-items img.logo {
@@ -141,8 +136,3 @@ footer a:hover {
     font-weight: 600;
     color: var(--color-primary-purple);
 }
-
-
-/* Add media:
-- Mobile: 375px
-- Desktop: 1440px */
