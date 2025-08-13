@@ -6,7 +6,6 @@ This is a solution to the [Huddle landing page with single introductory section 
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -24,16 +23,20 @@ Users should be able to:
 - View the optimal layout for the page depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-### Screenshot
-
-![](./screenshot.jpg)
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub Repository](https://github.com/rena-biaobock/quest-html-css-avancado/tree/main)
+- Live Site URL: [Live Demo](https://rena-biaobock.github.io/quest-html-css-avancado/)
 
 ## My process
+
+### Process:
+
+1. **Initial Setup** – Configured base HTML structure and reset styles.
+2. **Desktop Layout** – Built the 1440px version using CSS Grid and Flexbox.
+3. **Responsive Design** – Added breakpoints for mobile (375px) and optimized assets.
+4. **Semantic Refactor** – Replaced `<div>` with `<section>` elements and renamed classes for clarity.
+5. **Cleanup** – Removed unused template files/images and updated README.
 
 ### Built with
 
@@ -41,25 +44,21 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
 
 ### What I learned
 
-- 1
-- 2
+- How to leverage CSS Grid for complex layouts and combine it with Flexbox for fine-tuned alignment.
+- How to work with images (responsive resize).
 
 ### Continued development
 
-- 1
-- 2
+- Add functionality with JS.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [W3Schools](https://www.w3schools.com/css/) – Great reference for css properties.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- GitHub - [rena-biaobock](https://github.com/rena-biaobock)
+- Frontend Mentor - [@rena-biaobock](https://www.frontendmentor.io/profile/rena-biaobock)
